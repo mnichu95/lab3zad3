@@ -17,7 +17,7 @@ public class Menu {
 			switch (sendingOrReceiving) {
 			case ("sending"):
 				try {
-					System.out.println("Write how much messages do you want send, id, message and priority");
+					System.out.println("Sending");
 					queue.sending();
 				} catch (IllegalArgumentException e) {
 					System.out.println("not recognized priority");
