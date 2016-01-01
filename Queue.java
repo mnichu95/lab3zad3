@@ -22,11 +22,6 @@ public class Queue {
 		return text;
 	}
 
-	public int readLineInt() {
-		Scanner scanner = new Scanner(System.in);
-		int myInt = scanner.nextInt();
-		return myInt;
 
-	}
 
 }
